@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "django-samurai"
-version = "0.1.0"
-description = "?"
+version = "0.1.1"
+description = "Helping django-ninja"
 authors = ["c4ffein <c4ffein.work@gmail.com>"]
 readme = "README.md"
 keywords = ["django", "rest", "ninja"]

@@ -1,5 +1,5 @@
 [project]
-name = "samurai"
+name = "django-samurai"
 dynamic = ["version", "description"]
 authors = [{name = "c4ffein", email="c4ffein.work@gmail.com"}]
 readme = "README.md"

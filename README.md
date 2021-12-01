@@ -1,5 +1,4 @@
 # django-samurai
 🤫
 
-`poetry build -f sdist`
-`poetry publish`
+`flit publish --format sdist`

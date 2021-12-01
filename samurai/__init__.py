@@ -1,6 +1,6 @@
 """?"""
 
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 
 
 from .settings import get_env_debug_secret_hosts, get_env_databases, get_env_email

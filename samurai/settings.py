@@ -21,7 +21,7 @@ def get_env_databases(base_dir):
     except (ValueError, AttributeError):
         DB_TYPE, PG_USERNAME, PG_PASSWORD, PG_HOST, PG_PORT, PG_NAME = [None] * 6
     return {
-        "default": {"ENGINE": "django.db.backends.sqlite3", "NAME": base_dir / "db.sqlite3",}
+        "default": {"ENGINE": "django.db.backends.sqlite3", "NAME": base_dir / "db.sqlite3"}
         if not PG_NAME or getenv("PG_NAME")
         else {
             "ENGINE": "django.db.backends.postgresql_psycopg2",

@@ -13,4 +13,5 @@ __all__ = [
     "get_env_databases",
     "get_env_email",
     "middleware",
+    "requests",
 ]

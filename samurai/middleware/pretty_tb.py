@@ -17,7 +17,7 @@ def make_pretty_tb(tb):
         elif "apps" in got_path.parts:
             i = got_path.parts.index("apps")
             new_path = os.path.join(*got_path.parts[i:])
-            new_color = f"\033[0;31m"
+            new_color = "\033[0;31m"
         else:
             new_color = ""
             new_path = f'"{got_path}"'

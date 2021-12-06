@@ -15,7 +15,6 @@ Homepage = "https://github.com/c4ffein/django-samurai"
 Source = "https://github.com/c4ffein/django-samurai"
 Documentation = "https://github.com/c4ffein/django-samurai"
 
-
 [tool.flit.module]
 name = "samurai"
  

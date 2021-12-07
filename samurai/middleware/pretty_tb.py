@@ -30,7 +30,7 @@ def make_pretty_exc(trace2):
     tb = traceback.extract_tb(sys.exc_info()[2])
     output = f"Error in the server: {trace2}.\n"
     output += make_pretty_tb(tb)
-    output += f"\t> Exception: {trace2}\n"
+    output += f"\t> {type(trace2).__name__}: {trace2}\n"
     return output
 
 
